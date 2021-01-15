@@ -1,20 +1,16 @@
 <template>
-  <Hero />
+  <Landing />
   <NavBar />
-
-  <About />
 </template>
 
 <script>
-import Hero from "./components/Hero";
-import About from "./components/About";
 import NavBar from "./components/NavBar";
+import Landing from "./components/Landing/Landing";
 export default {
   name: "App",
   components: {
     NavBar,
-    Hero,
-    About,
+    Landing,
   },
 };
 </script>

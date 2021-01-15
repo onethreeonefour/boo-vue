@@ -4,14 +4,16 @@
       <div>
         <h1><span>boo</span>studio</h1>
         <h2>Bringing Your Product To New Heights</h2>
-        <h3>Design, Activation, Digital & Events Agency - Sydney, Australia</h3>
+        <h3>
+          Design, Activation, Digital, Events & Technology - Sydney, Australia
+        </h3>
         <div class="cta-button-container">
           <button>Free Evaluation</button>
           <button>Our Works</button>
         </div>
       </div>
       <div class="hero-image-container">
-        <img src="../assets/2.webp" alt="hero" />
+        <img src="../../assets/hero.webp" alt="hero" />
       </div>
     </div>
   </div>
@@ -44,14 +46,6 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped style="scss">
-@font-face {
-  font-family: Roboto-Bold;
-  src: url("../fonts/Roboto/RobotoCondensed-Bold.ttf");
-}
-@font-face {
-  font-family: Roboto-Thin;
-  src: url("../fonts/Roboto/RobotoCondensed-Light.ttf");
-}
 canvas {
   z-index: 5000;
   width: 100%;
@@ -102,18 +96,24 @@ button:nth-child(2):hover {
 }
 span {
   color: rgba(0, 0, 0, 0.8);
-  font-family: Roboto-Bold;
-  letter-spacing: -2.5px;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: -5px;
+  font-weight: 800;
 }
 h1 {
   color: rgba(0, 0, 0, 0.6);
-  font-family: Roboto-Thin;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 5.25rem;
+  font-weight: 300;
 }
 h2 {
-  font-family: Roboto-Thin;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 2.5rem;
   padding-bottom: 1rem;
+}
+h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
 }
 .hero-image-container {
   display: flex;

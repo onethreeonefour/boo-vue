@@ -25,6 +25,7 @@
 body {
   margin: 0;
 }
+
 header {
   padding: 20px 0;
   position: absolute;
