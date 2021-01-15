@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="hero-image-container">
-        <img src="../assets/2.jpg" alt="hero" />
+        <img src="../assets/2.webp" alt="hero" />
       </div>
     </div>
   </div>
@@ -25,7 +25,7 @@ export default {
         life: 5,
         power: 0.055,
         texture:
-          "https://res.cloudinary.com/naker-io/image/upload/v1610590483/uvgcdal5scwmoz92wfor.png",
+          "https://res.cloudinary.com/naker-io/image/upload/v1610674163/rvhkybxfzw8aoko5kpby.png",
         number: 165,
         colorStart: [255, 0, 0, 0.3],
         colorEnd: [255, 255, 255, 0.8],
@@ -37,8 +37,6 @@ export default {
       },
       environment: {
         sensitivity: 0.8,
-        colorStart: [255, 255, 255, 1],
-        colorEnd: [255, 255, 255, 1],
       },
     });
   },
@@ -60,6 +58,7 @@ canvas {
   height: 100%;
 }
 .hero {
+  background-color: rgb(252, 250, 250);
   display: grid;
   align-items: center;
   justify-content: center;
