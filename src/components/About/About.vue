@@ -28,7 +28,6 @@
 
 <script>
 import Showcase from "./Showcase";
-
 export default {
   components: {
     Showcase,
@@ -82,5 +81,12 @@ button {
   border-color: #0c1820;
   border-radius: 2rem;
   width: 20%;
+  border-style: solid;
+  transition: 0.2s ease-in-out all;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  border-color: white;
 }
 </style>

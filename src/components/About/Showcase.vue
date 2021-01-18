@@ -50,9 +50,22 @@
       </div>
     </div>
   </div>
-  <!-- <div class="boohub-container">
-    <h1>An Agency Trusted By</h1>
-  </div> -->
+  <div class="boohub-container">
+    <div class="boohub-card">
+      <h1>
+        Have Confidence With Boostudio!
+      </h1>
+      <h2>Your sucess is our success. <br /></h2>
+      <h3>
+        We're driven to bring your brand to new heights that can only achieved
+        from the best. Here at Boostudio we always strive for customer
+        satisfaction.
+      </h3>
+      <div>
+        <button>Let's Get Started</button>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -120,7 +133,7 @@ export default {
   display: grid;
   place-content: center;
   h1 {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     font-family: "Roboto Condensed", sans-serif;
   }
   h2 {
@@ -131,11 +144,63 @@ export default {
   }
 }
 .boohub-container {
-  background-color: #252e3a;
-  color: white;
   display: flex;
-  gap: 3rem;
+  align-items: center;
   padding: 4rem;
-  place-content: center;
+  height: 75vh;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("./handshake.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .boohub-card {
+    background-color: #cf5727;
+    padding: 3rem;
+    border-radius: 5px;
+    max-width: 30vw;
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    h1 {
+      font-size: 2.75rem;
+      font-family: "Roboto Condensed", sans-serif;
+    }
+    h2 {
+      font-weight: 400;
+      font-family: "Roboto Condensed", sans-serif;
+    }
+    h3 {
+      margin-top: 1rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+    }
+    div {
+      justify-content: center;
+      display: flex;
+    }
+    button {
+      font-family: "Poppins", sans-serif;
+      margin-top: 2rem;
+      font-size: 1rem;
+      padding: 1rem 1.5rem 1rem 1.5rem;
+      color: white;
+      background-color: black;
+      border-color: #0c1820;
+      border-style: solid;
+      cursor: pointer;
+      transition: 0.2s ease-in-out all;
+      border-radius: 2rem;
+      font-weight: 800;
+    }
+    button:hover {
+      background-color: white;
+      color: black;
+      border-color: white;
+    }
+  }
 }
 </style>
